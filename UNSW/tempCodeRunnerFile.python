@@ -1,0 +1,7 @@
+import torch
+
+x=torch.rand(3, requires_grad=True);
+y=x+2
+print(y)
+z=y*y*2 ##specifies the grad function along with
+print(z)
